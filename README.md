@@ -33,5 +33,5 @@ Verifolio is a decentralized digital portfolio platform built using **React** an
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/neilaadenin/verifolio-dina-verified.git
-cd verifolio-dina-verified
+git clone [https://github.com/xyuuzu/proofolio-wchl-icp.git]
+cd proofolio-wchl-icp
