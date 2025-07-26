@@ -1,6 +1,5 @@
 {
   "canisters": {
-<<<<<<< HEAD
     "internet_identity_app_backend": {
       "main": "src/internet_identity_app_backend/main.mo",
       "type": "motoko"
@@ -13,30 +12,29 @@
         "src/internet_identity_app_frontend/dist"
       ],
       "type": "assets",
-      "workspace": "internet_identity_app_frontend"
-=======
-    "apps_backend": {
-      "main": "src/apps_backend/main.mo",
-      "type": "motoko"
+      "workspace": "internet_identity_app_frontend",
+      "apps_backend": {
+        "main": "src/apps_backend/main.mo",
+        "type": "motoko"
+      },
+      "apps_frontend": {
+        "dependencies": [
+          "apps_backend"
+        ],
+        "source": [
+          "src/apps_frontend/dist"
+        ],
+        "type": "assets",
+        "workspace": "apps_frontend"
+      }
     },
-    "apps_frontend": {
-      "dependencies": [
-        "apps_backend"
-      ],
-      "source": [
-        "src/apps_frontend/dist"
-      ],
-      "type": "assets",
-      "workspace": "apps_frontend"
->>>>>>> 5e29cec (Upload File to ICP)
-    }
-  },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
-    }
-  },
-  "output_env_file": ".env",
-  "version": 1
+    "defaults": {
+      "build": {
+        "args": "",
+        "packtool": ""
+      }
+    },
+    "output_env_file": ".env",
+    "version": 1
+  }
 }
