@@ -13,12 +13,6 @@
       ],
       "type": "assets",
       "workspace": "internet_identity_app_frontend"
-    },
-    "internet_identity": {
-      "type": "custom",
-      "candid": "internet-identity/src/internet_identity/internet_identity.did",
-      "wasm": "internet-identity/internet_identity.wasm.gz",
-      "build": ""
     }
   },
   "defaults": {

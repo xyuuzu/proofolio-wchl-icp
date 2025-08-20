@@ -14,5 +14,8 @@
   "type": "module",
   "workspaces": [
     "src/internet_identity_app_frontend"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
 }
